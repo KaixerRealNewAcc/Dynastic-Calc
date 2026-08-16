@@ -94,8 +94,8 @@ function getSpeedState(p1s, p2s, field) {
 }
 
 function updateSpeedClasses(p1info, p2info, p1, p2, field) {
-	var p1Speed = p1info.find(".sp .totalMod");
-	var p2Speed = p2info.find(".sp .totalMod");
+	var p1Speed = p1info.find(".sp .totalMod").css("color", p1.stats.spe > p2.stats.spe ? "green" : p1.stats.spe < p2.stats.spe ? "red" : "orange");;
+	var p2Speed = p2info.find(".sp .totalMod").css("color", p1.stats.spe < p2.stats.spe ? "green" : p1.stats.spe > p2.stats.spe ? "red" : "orange");;
 	var speedClasses = "speed-faster speed-slower speed-tie";
 	p1Speed.removeClass(speedClasses);
 	p2Speed.removeClass(speedClasses);
@@ -1271,14 +1271,6 @@ function performCalculations() {
 	var p1field = createField();
 	var p2field = p1field.clone().swap();
 
-	p1info.find(".at .totalMod").text(p1.stats.atk)
-	p2info.find(".at .totalMod").text(p2.stats.atk)
-	p1info.find(".df .totalMod").text(p1.stats.def)
-	p2info.find(".df .totalMod").text(p2.stats.def)
-	p1info.find(".sa .totalMod").text(p1.stats.spa)
-	p2info.find(".sa .totalMod").text(p2.stats.spa)
-	p1info.find(".sd .totalMod").text(p1.stats.spd)
-	p2info.find(".sd .totalMod").text(p2.stats.spd)
 	p1info.find(".sp .totalMod").text(p1.stats.spe).css("color", p1.stats.spe > p2.stats.spe ? "green" : p1.stats.spe < p2.stats.spe ? "red" : "orange");
 	p2info.find(".sp .totalMod").text(p2.stats.spe).css("color", p1.stats.spe < p2.stats.spe ? "green" : p1.stats.spe > p2.stats.spe ? "red" : "orange");
 
