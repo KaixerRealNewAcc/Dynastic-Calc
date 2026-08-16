@@ -53,12 +53,9 @@
 <div class="wrapper">
 
     <div aria-label="Calculator tools" role="region">
-        <span class="title-text">Astral Emerald Damage Calculator</span>
+        <span class="title-text">Dynastic Emerald Damage Calculator</span>
         <span class="calc-top-actions" role="group" aria-label="Quick tools">
             <button type="button" class="btn calc-top-action-btn" id="open-pokedex-panel">Pokedex</button>
-            <button type="button" class="btn calc-top-action-btn" id="open-notes-panel">Notes</button>
-            <button type="button" class="btn calc-top-action-btn" id="open-frags-panel">Frags</button>
-            <button type="button" class="btn calc-top-action-btn" id="open-faq-panel">FAQ</button>
             <button type="button" class="btn calc-top-action-btn" id="open-settings-panel">Settings</button>
         </span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
@@ -200,24 +197,6 @@
         </div>
         <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try enabling JavaScript.)</span>
         </div>
-    </div>
-    <div class="left-side-pannel side-pannel">
-        <button data-set="i-f-type" class="l-side-button">
-            <i class="s-arrow arrowdown"></i>
-            <span>Type</span>
-        </button>
-        <button data-set="i-f-stats" class="l-side-button">
-            <i class="s-arrow arrowdown"></i>
-            <span>Stats</span>
-        </button>
-        <button data-set="i-f-hp" class="l-side-button">
-            <i class="s-arrow arrowdown"></i>
-            <span>HP</span>
-        </button>
-        <button data-set="i-f-move" class="l-side-button">
-            <i class="s-arrow arrowdown"></i>
-            <span>Moves</span>
-        </button>
     </div>
     <div class="panel">
         <div aria-label="Pok&eacute;mon 1" role="region">
@@ -1336,8 +1315,8 @@
                                 <th></th>
                                 <th scope="col">Base</th>
                                 <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">IVs</th>
-                                <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
-                                <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
+                                <th></th>
+                                <th></th>
                                 <th></th>
                                 <th></th>
                             </tr>
@@ -1353,14 +1332,13 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
                                 <td class="gen-specific g1 g2 hide">
                                     <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                 </td>
                                 <td><span class="total">341</span>
                                 </td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr class="at">
@@ -1373,13 +1351,7 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
-                                <td class="gen-specific g1 g2 hide">
-                                    <input class="dvs calc-trigger" value="15" />
-                                </td>
-                                <td><span class="total">236</span>
+                                <td><span class="total totalMod">236</span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1399,9 +1371,10 @@
                                     </select>
                                 </td>
                                 <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                            </td>
+                                    <button type="button" class="stat-changer" title="Increase boost">+</button>
+                                    <button type="button" class="stat-changer" title="Decrease boost">-</button>
+                                </td>
+                                <td></td>
                             </tr>
                             <tr class="df">
                                 <th scope="row">
@@ -1413,13 +1386,7 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
-                                <td class="gen-specific g1 g2 hide">
-                                    <input class="dvs calc-trigger" value="15" />
-                                </td>
-                                <td><span class="total">236</span>
+                                <td><span class="total totalMod">236</span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1439,9 +1406,10 @@
                                     </select>
                                 </td>
                                 <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                            </td>
+                                    <button type="button" class="stat-changer" title="Increase boost">+</button>
+                                    <button type="button" class="stat-changer" title="Decrease boost">-</button>
+                                </td>
+                                <td></td>
                             </tr>
                             <tr class="sa gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
                                 <th scope="row">
@@ -1453,13 +1421,7 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
-                                <td class="gen-specific g1 g2 hide">
-                                    <input class="dvs calc-trigger" value="15" />
-                                </td>
-                                <td><span class="total">236</span>
+                                <td><span class="total totalMod">236</span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1479,9 +1441,10 @@
                                     </select>
                                 </td>
                                 <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                            </td>
+                                    <button type="button" class="stat-changer" title="Increase boost">+</button>
+                                    <button type="button" class="stat-changer" title="Decrease boost">-</button>
+                                </td>
+                                <td></td>
                             </tr>
                             <tr class="sd gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
                                 <th scope="row">
@@ -1493,13 +1456,10 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
                                 <td class="gen-specific g1 g2 hide">
                                     <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                 </td>
-                                <td><span class="total">236</span>
+                                <td><span class="total totalMod">236</span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1519,9 +1479,10 @@
                                     </select>
                                 </td>
                                 <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                            </td>
+                                    <button type="button" class="stat-changer" title="Increase boost">+</button>
+                                    <button type="button" class="stat-changer" title="Decrease boost">-</button>
+                                </td>
+                                <td></td>
                             </tr>
                             <tr class="sl gen-specific g1 hide">
                                 <th scope="row">
@@ -1533,7 +1494,7 @@
                                 <td>
                                     <input class="dvs calc-trigger" value="15" />
                                 </td>
-                                <td><span class="total">236</span>
+                                <td><span class="total totalMod">236</span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1552,10 +1513,7 @@
                                         <option value="-6">-6</option>
                                     </select>
                                 </td>
-                                <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                            </td>
+                                <td></td>
                             </tr>
                             <tr class="sp">
                                 <th scope="row">
@@ -1567,13 +1525,11 @@
                                 <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <input class="ivs calc-trigger" value="31" />
                                 </td>
-                                <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
-                                    <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
-                                </td>
-                                <td class="gen-specific g1 g2 hide">
-                                    <input class="dvs calc-trigger" value="15" />
-                                </td>
-                                <td><span class="total">236</span>
+                                <td class="sp-total-with-speed-cell">
+                                    <span class="sp-total-and-speed">
+                                        <span class="total totalMod">236</span>
+                                        <!--<div class="speed-indicator" role="img" hidden></div>-->
+                                    </span>
                                 </td>
                                 <td>
                                     <select class="boost calc-trigger">
@@ -1593,10 +1549,8 @@
                                     </select>
                                 </td>
                                 <td>
-                                <button class="stat-changer">+</button>
-                                <button class="stat-changer">-</button>
-                                </td>
-                                <td><span class="totalMod">---</span>
+                                    <button type="button" class="stat-changer" title="Increase boost">+</button>
+                                    <button type="button" class="stat-changer" title="Decrease boost">-</button>
                                 </td>
                             </tr>
                         </tbody>
