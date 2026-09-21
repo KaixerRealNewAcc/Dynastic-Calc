@@ -95,6 +95,15 @@ var SETDEX_SV = {
    "Nidoqueen": {
    },
    "Nidoran-M": {
+        "Youngster Billy": {  
+            "index": "0000000013",
+            "level": 11,
+            "ability": "Hustle",
+            "item": "Poison Barb",
+            "nature": "Jolly",
+            "moves": ["Retaliate", "Poison Jab",
+                      "", ""]
+        },
    },
    "Nidorino": {
    },
@@ -353,6 +362,16 @@ var SETDEX_SV = {
    "Seaking": {
    },
    "Staryu": {
+        "Youngster Billy": {  
+            "index": "0000000014",
+            "level": 11,
+            "ability": "Magic Gaurd",
+            "item": "Mystic Water",
+            "nature": "Timid",
+            "moves": ["Water Pulse", "Aurora Beam",
+                      "Psybeam", "Flip Turn"],
+            "status": "Burn",
+        },
    },
    "Starmie": {
    },
@@ -713,6 +732,15 @@ var SETDEX_SV = {
    "Celebi": {
    },   
    "Treecko": {
+        "School Kid Sen": {  
+            "index": "0000000006",
+            "level": 10,
+            "ability": "Overgrow",
+            "item": "Miracle Seed",
+            "nature": "Docile",
+            "moves": ["Mega Drain", "Breaking Swipe",
+                      "Leech Seed", "Protect"]
+        },
    },
    "Grovyle": {
    },
@@ -721,6 +749,15 @@ var SETDEX_SV = {
    "Sceptile-Mega": {
    },
    "Torchic": {
+        "School Kid Sen": {  
+            "index": "0000000007",
+            "level": 10,
+            "ability": "Blaze",
+            "item": "Charcoal",
+            "nature": "Docile",
+            "moves": ["Incinerate", "Double Kick",
+                      "Fire Spin", "Protect"]
+        },
    },
    "Combusken": {
    },
@@ -729,6 +766,15 @@ var SETDEX_SV = {
    "Blaziken-Mega": {
    },
    "Mudkip": {
+        "School Kid Sen": {  
+            "index": "0000000008",
+            "level": 10,
+            "ability": "Torrent",
+            "item": "Mystic Water",
+            "nature": "Docile",
+            "moves": ["Water Pulse", "Mud Shot",
+                      "Toxic", "Protect"]
+        },
    },
    "Marshtomp": {
    },
@@ -901,6 +947,15 @@ var SETDEX_SV = {
     "Grumpig": {
     },
     "Spinda": {
+        "School Kid Sen": {  
+            "index": "0000000010",
+            "level": 10,
+            "ability": "Contrary",
+            "item": "Berry Juice",
+            "nature": "Docile",
+            "moves": ["Metronome", "Fake Out",
+                      "", ""]
+        },
     },
     "Trapinch": {
     },
@@ -1427,6 +1482,14 @@ var SETDEX_SV = {
     "Maractus": {
     },
     "Dwebble": {
+        "Bug Catcher Harry": {  
+            "index": "0000000005",
+            "level": 10,
+            "ability": "Sturdy",
+            "item": "Oran Berry",
+            "nature": "Docile",
+            "moves": ["Pounce", "Smack Down"]
+        },
     },
     "Crustle": {
     },
@@ -1452,39 +1515,600 @@ var SETDEX_SV = {
     },
     "Garbodor": {
     },
-    "": {
+    "Zorua": {
     },
-    "": {
+    "Zoroark": {
     },
-    "": {
+    "Zorua-Hisui": {
     },
-    "": {
+    "Zoroark-Hisui": {
     },
-    "": {
+    "Mincinno": {
     },
-    "": {
+    "Cinccino": {
     },
-    "": {
+    "Gothita": {
     },
-    "": {
+    "Gothorita": {
     },
-    "": {
+    "Gothitelle": {
     },
-    "": {
+    "Solosis": {
     },
-    "": {
+    "Duosion": {
     },
-    "": {
+    "Reuniclus": {
     },
-    "": {
+    "Ducklett": {
     },
-    "": {
+    "Swanna": {
     },
-    "": {
+    "Vanillite": {
     },
-    "": {
+    "Vanillish": {
     },
-    "": {
+    "Vanilluxe": {
+    },
+    "Deerling": {
+    },
+    "Sawsbuck": {
+    },
+    "Emolga": {
+    },      
+    "Karrablast": {    
+    },                     
+    "Escavalier": {
+    },
+    "Foongus": {
+    },
+    "Amoonguss": {
+    },
+    "Frillish": {
+    },
+    "Jellicent": {
+    },
+    "Alomomola": {
+    },
+    "Joltik":{
+        "Bug Catcher Harry": {  
+            "index": "0000000003",
+            "level": 10,
+            "ability": "Unnerve",
+            "item": "Oran Berry",
+            "nature": "Docile",
+            "moves": ["Charge Beam", "Struggle Bug"]
+        },
+    },
+    "Galvantula": {
+    },
+    "Ferroseed": {
+    },
+    "Ferrothorn": {
+    },
+    "Klink": {
+    },
+    "Klang": {
+    },
+    "Klinklang": {
+    },
+    "Tynamo": {
+    },
+    "Eelektrik": {
+    },
+    "Eelektross": {
+    },
+    "Eelektross-Mega": {
+    },
+    "Elgyem": {
+    },
+    "Beheeyem": {
+    },
+    "Litwick": {
+    },
+    "Lampent": {
+    },
+    "Chandelure": {
+    },
+    "Axew": {
+    },
+    "Fraxure": {
+    },
+    "Haxorus": {
+    },
+    "Cubchoo": {
+    },
+    "Beartic": {
+    },
+    "Cryogonal": {
+    },
+    "Shelmet": {
+    },
+    "Accelgor": {
+    },
+    "Stunfisk": {
+    },
+    "Mienfoo": {   
+    },
+    "Mienshao": {
+    },  
+    "Druddigon": {
+    },
+    "Golett": {
+    },
+    "Golurk": {
+    },
+    "Golurk-Mega": {
+    },
+    "Pawniard": {
+    },
+    "Bisharp": {
+    },
+    "Kingambit": {
+    },
+    "Bouffalant": {
+    },
+    "Rufflet": {
+    },
+    "Braviary": {
+    },
+    "Braviary-Hisui": {
+    },
+    "Vullaby": {
+    },
+    "Mandibuzz": {
+    },
+    "Heatmor": {
+    },
+    "Durant": {
+    },
+    "Deino": {
+    },
+    "Zweilous": {
+    },
+    "Hydreigon": {
+    },  
+    "Larvesta": {
+    },
+    "Volcarona": {
+    },
+    "Cobalion": {
+    },
+    "Terrakion": {
+    },
+    "Virizion": {
+    },
+    "Keldeo": {
+    },
+    "Meloetta": {
+    },
+    "Genesect": {
+    },
+    "Tornadus": {
+    },
+    "Tornadus-Therian": {
+    },
+    "Thundurus": {
+    },
+    "Thundurus-Therian": {
+    },
+    "Landorus": {
+    },
+    "Landorus-Therian": {
+    },
+    "Kyurem": {
+    },
+    "Kyurem-Black": {
+    },
+    "Kyurem-White": {
+    },
+    "Keldeo-Resolute": {
+    },
+    "Meloetta-Pirouette": {
+    },
+    "Genesect-Douse": {
+    },
+    "Genesect-Shock": {
+    },
+    "Genesect-Burn": {
+    },
+    "Genesect-Chill": {
+    },
+    "Chespin":{
+    },
+    "Quilladin":{
+    },
+    "Chesnaught":{
+    }, 
+    "Chesnaught-Mega":{
+    },
+    "Fennekin":{
+    },
+    "Braixen":{
+    },
+    "Delphox":{
+    },
+    "Delphox-Mega":{
+    },
+    "Froakie":{
+    },
+    "Frogadier":{
+    },       
+    "Greninja":{
+    },
+    "Greninja-Mega":{
+    },
+    "Greninja-Ash":{
+    },
+    "Bunnelby":{
+    },
+    "Diggerby":{
+    },
+    "Fletchling":{
+    },
+    "Fletchlinder":{
+    },
+    "Talonflame":{
+    },
+    "Scatterbug":{
+    },
+    "Spewpa":{
+    },
+    "Vivillon":{
+    },
+    "Litleo":{
+    },
+    "Pyroar":{
+    },
+    "Flabébé":{
+    },
+    "Floette":{
+    },
+    "Florges":{
+    },
+    "Skiddo":{
+    },
+    "Gogoat":{
+    },
+    "Pancham":{
+    },
+    "Pangoro":{
+    },
+    "Furfrou":{
+    },  
+    "Espurr":{
+    },
+    "Meowstic":{
+    },
+    "Meowstic-Female":{
+    },
+    "Honedge":{
+    },
+    "Doublade":{
+    },
+    "Aegislash":{
+    },
+    "Aegislash-Blade":{
+    },
+    "Aegislash-Shield":{
+    },
+    "Honedge":{
+    },
+    "Doublade":{
+    },
+    "Aegislash":{
+    },
+    "Aegislash-Blade":{
+    },
+    "Spritzee":{
+    },
+    "Aromatisse":{
+    },
+    "Swirlix":{
+    },
+    "Slurpuff":{
+    },
+    "Inkay":{
+    },
+    "Malamar":{
+    },
+    "Binacle":{
+    },
+    "Barbaracle":{
+    },
+    "Skrelp":{
+    },
+    "Dragalge":{
+    },
+    "Clauncher":{
+    },
+    "Clawitzer":{
+    },
+    "Helioptile":{
+    },
+    "Heliolisk":{
+    },
+    "Tyrunt":{
+    },
+    "Tyrantrum":{
+    },
+    "Amaura":{
+    },
+    "Aurorus":{
+    },
+    "Sylveon":{
+    },
+    "Hawlucha":{
+    },
+    "Dedenne":{
+    },
+    "Carbink":{
+    },
+    "Goomy":{
+    },
+    "Sliggoo":{
+    },
+    "Goodra":{
+    },
+    "Klefki":{
+    },
+    "Phantump":{
+    },
+    "Trevenant":{
+    },
+    "Pumpkaboo":{
+    },
+    "Gourgeist":{
+    },
+    "Bergmite":{
+    },
+    "Avalugg":{
+    },
+    "Noibat":{
+    },
+    "Noivern":{
+    },
+    "Xerneas":{
+    },
+    "Yveltal":{
+    },
+    "Zygarde":{
+    },
+    "Diancie":{
+    },
+    "Diancie-Mega":{
+    },
+    "Hoopa":{
+    },
+    "Hoopa-Unbound":{
+    },
+    "Volcanion":{
+    },
+    "Rowlet":{
+    },
+    "Dartrix":{
+    },
+    "Decidueye":{
+    },
+    "Litten":{
+    },
+    "Torracat":{
+    },
+    "Incineroar":{
+    },
+    "Popplio":{
+    },
+    "Brionne":{
+    },
+    "Primarina":{
+    },  
+    "Pikipek":{
+    },
+    "Trumbeak":{
+    },
+    "Toucannon":{
+    },
+    "Yungoos":{
+        "Youngster Billy": {  
+            "index": "0000000012",
+            "level": 11,
+            "ability": "Adaptability",
+            "item": "Silk Scarf",
+            "nature": "Adamant",
+            "moves": ["Retaliate", "Quick Attack",
+                      "", ""]
+        },
+    },
+    "Gumshoos":{
+    },
+    "Grubbin":{
+    },
+    "Charjabug":{
+    },  
+    "Vikavolt":{
+    },
+    "Crabrawler":{
+    },
+    "Crabominable":{
+    },
+    "Crabominable-Mega":{
+    },
+    "Oricorio":{
+    },
+    "Oricorio-Pom-Pom":{
+    },
+    "Oricorio-Pa'u":{
+    },
+    "Oricorio-Sensu":{
+    },
+    "Cutiefly":{
+    },
+    "Ribombee":{
+    },
+    "Rockruff":{
+    },
+    "Lycanroc":{
+    },
+    "Lycanroc-Midnight":{
+    },
+    "Lycanroc-Dusk":{
+    },
+    "Wishiwashi":{
+    },
+    "Wishiwashi-School":{
+    },
+    "Mareanie":{
+    },
+    "Toxapex":{
+    },
+    "Mudbray":{
+    },
+    "Mudsdale":{
+    },
+    "Dewpider":{
+    },
+    "Araquanid":{
+    },
+    "Fomantis":{
+    },
+    "Lurantis":{
+    },
+    "Morelull":{
+    },
+    "Shiinotic":{
+    },
+    "Salandit":{
+    },
+    "Salazzle":{
+    },
+    "Stufful":{
+    },
+    "Bewear":{
+    },
+    "Bounsweet":{
+    },
+    "Steenee":{
+    },
+    "Tsareena":{
+    },
+    "Comfey":{
+    },
+    "Oranguru":{
+    },
+    "Passimian":{
+    },
+    "Wimpod":{
+    },
+    "Golisopod":{
+    },
+    "Sandygast":{
+    },
+    "Palossand":{
+    },
+    "Pyukumuku":{
+    },
+    "Type: Null":{
+    },
+    "Silvally":{
+    },
+    "Minior":{
+    },
+    "Minior-Meteor":{
+    },
+    "Komala":{
+    },
+    "Turtonator":{
+    },
+    "Togedemaru":{
+    },
+    "Mimikyu":{
+    },
+    "Mimikyu-Busted":{
+    },
+    "Bruxish":{
+    },
+    "Drampa":{
+    },
+    "Dhelmise":{
+    },
+    "Jangmo-o":{
+    },
+    "Hakamo-o":{
+    },
+    "Kommo-o":{
+    },  
+    "Tapu Koko":{
+    },
+    "Tapu Lele":{
+    },
+    "Tapu Bulu":{
+    },
+    "Tapu Fini":{
+    },  
+    "Cosmog":{
+    },
+    "Cosmoem":{
+    },
+    "Solgaleo":{
+    },
+    "Lunala":{
+    },
+    "Nihilego":{
+    },
+    "Buzzwole":{
+    },
+    "Pheromosa":{
+    },
+    "Xurkitree":{
+    },
+    "Celesteela":{
+    },
+    "Kartana":{
+    },
+    "Guzzlord":{
+    },  
+    "Necrozma":{
+    },
+    "Magearna":{
+    },
+    "Marshadow":{
+    },
+    "Poipole":{
+    },
+    "Naganadel":{
+    },
+    "Stakataka":{
+    },
+    "Blacephalon":{
+    },
+    "Zeraora":{
+    },
+    "Zeraora-Mega":{
+    },
+    "Meltan":{
+    },
+    "Melmetal":{
+    },
+    "Grookey":{
+    },
+    "Thwackey":{
+    },
+    "Rillaboom":{
+    },
+    "Scorbunny":{
+    },
+    "Raboot":{
+    },
+    "Cinderace":{
+    },
+    "Sobble":{
+    },
+    "Drizzile":{
+    },
+    "Inteleon":{
+    },
+    "Skwovet":{
+    },  
+    "Greedent":{
     },
     "Rookidee": {
         "Youngster Calvin": {  
@@ -1499,6 +2123,466 @@ var SETDEX_SV = {
     "Corvisquire": {
     },
     "Corviknight": {
+    },
+    "Blipbug":{
+    },
+    "Dottler":{
+    },
+    "Orbeetle":{
+    },
+    "Nickit":{
+    },
+    "Thievul":{
+    },
+    "Gossifleur":{
+    },
+    "Eldegoss":{
+    },  
+    "Wooloo":{
+    },
+    "Dubwool":{
+    },
+    "Chewtle":{
+    },
+    "Drednaw":{
+    },
+    "Yamper":{
+    },
+    "Boltund":{
+    },
+    "Rolycoly":{
+    },
+    "Carkol":{
+    },  
+    "Coalossal":{
+    },
+    "Applin":{
+    },
+    "Flapple":{
+    },
+    "Appletun":{
+    },
+    "Hydrapple":{
+    },
+    "Silicobra":{
+    },
+    "Sandaconda":{
+    },
+    "Cramorant":{
+    },
+    "Cramorant-Gulping":{
+    },
+    "Cramorant-Gorging":{
+    },
+    "Arrokuda":{
+    },
+    "Barraskewda":{
+    },
+    "Toxel":{
+    },
+    "Toxtricity":{
+    },
+    "Toxtricity-Low-Key":{
+    },
+    "Sizzlipede":{
+    },
+    "Centiskorch":{
+    },  
+    "Clobbopus":{
+    },
+    "Grapploct":{
+    },
+    "Sinistea":{
+    },
+    "Polteageist":{
+    },
+    "Hatenna":{
+        "Youngster Billy": {  
+            "index": "0000000011",
+            "level": 11,
+            "ability": "Magic Bounce",
+            "item": "Magic Bounce",
+            "nature": "Docile",
+            "moves": ["Healing Wish", "",
+                      "", ""]
+        },
+    },
+    "Hattrem":{
+    },
+    "Hatterene":{
+    },
+    "Impidimp":{
+    },
+    "Morgrem":{
+    },
+    "Grimmsnarl":{
+    },
+    "Obstagoon":{
+    },
+    "Perrserker":{
+    },
+    "Cursola":{
+    },
+    "Sirfetch'd":{
+    },
+    "Mr. Rime":{
+    },
+    "Runerigus":{
+    },
+    "Milcery":{
+    },
+    "Alcremie":{
+    },
+    "Falinks":{
+    },
+    "Falinks-Mega":{
+    },
+    "Pincurchin":{
+    },
+    "Snom":{
+    },
+    "Frosmoth":{
+    },
+    "Stonjourner":{
+    },
+    "Eiscue":{
+    },
+    "Indeedee":{
+    },
+    "Morpeko":{
+    },
+    "Cufant":{
+    },
+    "Copperajah":{
+    },
+    "Dracozolt":{
+    },
+    "Arctozolt":{
+    },
+    "Dracovish":{
+    },
+    "Arctovish":{
+    },  
+    "Duraludon":{
+    },
+    "Dreepy":{
+    },
+    "Drakloak":{
+    },
+    "Dragapult":{
+    },
+    "Zacian-Crowned":{
+    },
+    "Zacian":{
+    },
+    "Zamazenta":{
+    },
+    "Zamazenta-Crowned":{
+    },
+    "Eternatus":{
+    },
+    "Kubfu":{
+    },
+    "Urshifu":{
+    },
+    "Urshifu-Rapid-Strike":{
+    },
+    "Zarude":{
+    },
+    "Regieleki":{
+    },
+    "Regidrago":{
+    },
+    "Glastrier":{
+    },
+    "Spectrier":{
+    },
+    "Calyrex":{
+    },
+    "Calyrex-Ice":{
+    },
+    "Calyrex-Shadow":{
+    },
+    "Wyrdeer":{
+    },
+    "Kleavor":{
+    },
+    "Ursaluna":{
+    },
+    "Basculegion":{
+    },  
+    "Basculegion-F":{
+    },
+    "Sneasler":{
+    },
+    "Overqwil":{
+    },
+    "Enamorus":{
+    },
+    "Enamorus-Therian":{
+    },
+    "Sprigatito":{
+    },
+    "Floragato":{
+    },
+    "Meowscarada":{
+    },
+    "Fuecoco":{
+    },
+    "Crocalor":{
+    },
+    "Skeledirge":{
+    },
+    "Quaxly":{
+    },
+    "Quaxwell":{
+    },
+    "Quaquaval":{
+    },
+    "Lechonk":{
+    },
+    "Oinkologne":{
+    },
+    "Tarountula":{
+        "Bug Catcher Harry": {  
+            "index": "0000000004",
+            "level": 10,
+            "ability": "Stakeout",
+            "item": "Oran Berry",
+            "nature": "Docile",
+            "moves": ["Pounce", "Rock Tomb"]
+        },
+    },
+    "Spidops":{
+    },
+    "Nymble":{
+    },
+    "Lokix":{
+    },
+    "Pawmi":{
+    },
+    "Pawmo":{
+    },
+    "Pawmot":{
+    },
+    "Tandemaus":{
+    },
+    "Maushold":{
+    },
+    "Fidough":{
+    },
+    "Dachsbun":{
+    },
+    "Smoliv":{
+    },
+    "Dolliv":{
+    },
+    "Arboliva":{
+    },
+    "Squawkabilly":{
+    },
+    "Nacli":{
+    },
+    "Naclstack":{
+    },
+    "Garganacl":{
+    },
+    "Charcadet":{
+    },
+    "Armarouge":{
+    },
+    "Ceruledge":{
+    },
+    "Squawkabilly":{
+    },
+    "Tadbulb":{
+    },
+    "Bellibolt":{
+    },
+    "Wattrel":{
+    },
+    "Kilowattrel":{
+    },
+    "Maschiff":{
+    },
+    "Mabosstiff":{
+    },
+    "Shroodle":{
+    },
+    "Grafaiai":{
+    },
+    "Bramblin":{
+    },
+    "Brambleghast":{
+    },
+    "Toedscool":{
+    },
+    "Toedscruel":{
+    },
+    "Klawf":{
+    },
+    "Capsakid":{
+    },
+    "Scovillain":{
+    },          
+    "Scovillain-Mega":{
+    },
+    "Rellor":{
+    },
+    "Rabsca":{
+    },
+    "Flittle":{
+    },
+    "Espathra":{
+    },
+    "Tinkatink":{
+        "School Kid Sen": {  
+            "index": "0000000009",
+            "level": 10,
+            "ability": "Pickpocket",
+            "item": "Berry Juice",
+            "nature": "Docile",
+            "moves": ["Metronome", "Fake Out",
+                      "", ""]
+        },
+    },
+    "Tinkatuff":{
+    },
+    "Tinkaton":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
+    },
+    "":{
     },
 
 };
