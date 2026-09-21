@@ -1024,11 +1024,11 @@ var OPPONENT_PLAN_RANGES = [
 		endTrainers: ["Team Plasma #5 3/3 | Abandoned Ship"]
 	},
 	{
-		id: "route-103-gauntlet",
+		id: "petalburg-woods-gauntlet",
 		type: "Gauntlet",
-		label: "Fisherman Andrew \u2192 Black Belt Rhett",
-		startTrainers: ["Fisherman Andrew | Route 103"],
-		endTrainers: ["Black Belt Rhett | Route 103"]
+		label: "Scientist Lyle 1/3 \u2192 Team Aqua Grunt [BOSS] 1/3",
+		startTrainers: ["Scientist Lyle 1/3"],
+		endTrainers: ["Team Aqua Grunt [BOSS] 3/3"]
 	},
 	{
 		id: "route-111-wilton-gauntlet",
