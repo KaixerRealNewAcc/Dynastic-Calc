@@ -146,6 +146,16 @@ var SETDEX_SV = {
    "Venomoth": {
    },
    "Diglett": {
+        "Scientist Lyle 1/3": {  
+            "index": "0000000019",
+            "level": 11,
+            "ability": "Tangeling Hair",
+            "item": "Air Balloon",
+            "nature": "Adamant",
+            "moves": ["Rock Slide", "Metal Claw",
+                      "Bulldoze", "Astonish"],
+            "status": "Healthy",
+        },
    },
    "Diglett-A": {
    },
@@ -298,6 +308,16 @@ var SETDEX_SV = {
    "Kingler": {
    },
    "Voltorb": {
+        "Scientist Lyle 1/3": {  
+            "index": "0000000017",
+            "level": 11,
+            "ability": "Static",
+            "item": "Magnet",
+            "nature": "Modest",
+            "moves": ["Shock Wave", "Swift",
+                      "Sucker Punch", "Magnet Rise"],
+            "status": "Healthy",
+        },
    },
    "Voltorb-H": {
    },
@@ -362,10 +382,10 @@ var SETDEX_SV = {
    "Seaking": {
    },
    "Staryu": {
-        "Youngster Billy": {  
+        "Fisherman Patrick": {  
             "index": "0000000014",
             "level": 11,
-            "ability": "Magic Gaurd",
+            "ability": "Magic Guard",
             "item": "Mystic Water",
             "nature": "Timid",
             "moves": ["Water Pulse", "Aurora Beam",
@@ -516,6 +536,16 @@ var SETDEX_SV = {
    "Ariados":{
    },
    "Chinchou":{
+        "Fisherman Patrick": {  
+            "index": "0000000015",
+            "level": 11,
+            "ability": "Volt Absorb",
+            "item": "Big Root",
+            "nature": "Timid",
+            "moves": ["Parabolic Charge", "Icy Wind",
+                      "Whirlpool", "Thunder Wave"],
+            "status": "Healthy",
+        },
    },
    "Lanturn":{
    },
@@ -668,6 +698,16 @@ var SETDEX_SV = {
    "Skarmory": {
    },
    "Houndour": {
+        "Hex Maniac Eevee 2/3": {  
+            "index": "0000000021",
+            "level": 11,
+            "ability": "Flash Fire",
+            "item": "Poison Gem",
+            "nature": "Timid",
+            "moves": ["Smog", "Incinerate",
+                      "Snarl", "Will-O-Wisp"],
+            "status": "Healthy",
+        },
    },
    "Houndoom": {
    },
@@ -921,10 +961,30 @@ var SETDEX_SV = {
     "Roserade": {
     },
     "Gulpin": {
+        "Team Aqua Grunt [BOSS] 3/3": {  
+            "index": "0000000023",
+            "level": 13,
+            "ability": "Gluttony",
+            "item": "Custap Berry",
+            "nature": "Mild",
+            "moves": ["Blech", "Mega Drain",
+                      "Pursuit", "Fire Punch"],
+            "status": "Healthy",
+        },
     },
     "Swalot": {
     },
     "Carvanha": {
+        "Team Aqua Grunt [BOSS] 3/3": {  
+            "index": "0000000022",
+            "level": 12,
+            "ability": "Rough Skin",
+            "item": "Rocky Helmet",
+            "nature": "Naive",
+            "moves": ["Bite", "Water Pulse",
+                      "Poison Fang", "Aqua Jet"],
+            "status": "Healthy",
+        },
     },
     "Sharpedo": {
     },
@@ -1010,6 +1070,16 @@ var SETDEX_SV = {
     "Kecleon": {
     },
     "Shuppet": {
+        "Hex Maniac Eevee 2/3": {  
+            "index": "0000000019",
+            "level": 11,
+            "ability": "Prankster",
+            "item": "Muscle Band",
+            "nature": "Adamant",
+            "moves": ["Shadow Sneak", "Knock Off",
+                      "Secret Power", "Screech"],
+            "status": "Healthy",
+        },
     },
     "Banette": {
     },
@@ -1202,6 +1272,16 @@ var SETDEX_SV = {
     "Chingling": {
     },
     "Stunky": {
+        "Hex Maniac Eevee 2/3": {  
+            "index": "0000000020",
+            "level": 11,
+            "ability": "Aftermath",
+            "item": "Black Sludge",
+            "nature": "Mild",
+            "moves": ["Venoshock", "Pursuit",
+                      "Incinerate", "Toxic"],
+            "status": "Healthy",
+        },
     },
     "Skuntank": {
     },
@@ -1494,6 +1574,16 @@ var SETDEX_SV = {
     "Crustle": {
     },
     "Scraggy": {
+        "Team Aqua Grunt [BOSS] 3/3": {  
+            "index": "0000000024",
+            "level": 12,
+            "ability": "Shed Skin",
+            "item": "Oran Berry",
+            "nature": "Adamant",
+            "moves": ["Bite", "Low Sweep",
+                      "Rock Throw", "Rest"],
+            "status": "Healthy",
+        },
     },
     "Scrafty": {
     },
@@ -1864,6 +1954,16 @@ var SETDEX_SV = {
     "Avalugg":{
     },
     "Noibat":{
+        "Scientist Lyle 1/3": {  
+            "index": "0000000018",
+            "level": 11,
+            "ability": "Frisk",
+            "item": "Leftovrs",
+            "nature": "Timid",
+            "moves": ["Air Cutter", "Twister",
+                      "Mega Drain", "Supersonic"],
+            "status": "Healthy",
+        },
     },
     "Noivern":{
     },
@@ -2175,6 +2275,16 @@ var SETDEX_SV = {
     "Cramorant-Gorging":{
     },
     "Arrokuda":{
+        "Fisherman Patrick": {  
+            "index": "0000000016",
+            "level": 11,
+            "ability": "Strong Jaw",
+            "item": "Scope Lens",
+            "nature": "Adamant",
+            "moves": ["Waterfall", "Ice Fang",
+                      "Bite", "Aqua Jet"],
+            "status": "Healthy",
+        },
     },
     "Barraskewda":{
     },
