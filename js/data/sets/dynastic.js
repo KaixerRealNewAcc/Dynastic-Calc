@@ -961,7 +961,7 @@ var SETDEX_SV = {
     "Roserade": {
     },
     "Gulpin": {
-        "Team Aqua Grunt [BOSS] 3/3": {  
+        "Team Aqua Grunt 3/3": {  
             "index": "0000000023",
             "level": 13,
             "ability": "Gluttony",
@@ -975,7 +975,7 @@ var SETDEX_SV = {
     "Swalot": {
     },
     "Carvanha": {
-        "Team Aqua Grunt [BOSS] 3/3": {  
+        "Team Aqua Grunt 3/3": {  
             "index": "0000000022",
             "level": 12,
             "ability": "Rough Skin",
@@ -1574,7 +1574,7 @@ var SETDEX_SV = {
     "Crustle": {
     },
     "Scraggy": {
-        "Team Aqua Grunt [BOSS] 3/3": {  
+        "Team Aqua Grunt 3/3": {  
             "index": "0000000024",
             "level": 12,
             "ability": "Shed Skin",

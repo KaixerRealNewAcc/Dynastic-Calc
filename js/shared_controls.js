@@ -1017,47 +1017,12 @@ var opponentPlanActiveKey = OPPONENT_PLAN_GENERAL_KEY;
 var opponentPlanDragState = null;
 var OPPONENT_PLAN_RANGES = [
 	{
-		id: "abandoned-ship-b2b",
-		type: "B2B",
-		label: "Team Plasma #3 1/3 \u2192 Team Plasma #5 3/3",
-		startTrainers: ["Team Plasma #3 1/3 | Abandoned Ship"],
-		endTrainers: ["Team Plasma #5 3/3 | Abandoned Ship"]
-	},
-	{
 		id: "petalburg-woods-gauntlet",
 		type: "Gauntlet",
 		label: "Scientist Lyle 1/3 \u2192 Team Aqua Grunt [BOSS] 1/3",
 		startTrainers: ["Scientist Lyle 1/3"],
-		endTrainers: ["Team Aqua Grunt [BOSS] 3/3"]
+		endTrainers: ["Team Aqua Grunt 3/3"]
 	},
-	{
-		id: "route-111-wilton-gauntlet",
-		type: "Gauntlet",
-		label: "Cool Trainer Wilton \u2192 Ruin Maniac Dusty",
-		startTrainers: ["Cool Trainer Wilton | Route 111"],
-		endTrainers: ["Ruin Maniac Dusty | Route 111"]
-	},
-	{
-		id: "route-111-drew-bryan-gauntlet",
-		type: "Gauntlet",
-		label: "Camper Drew & Ruin Maniac Bryan \u2192 Picnicker Celia",
-		startTrainers: ["Drew & Bryan | Route 111", "Camper Drew & Ruin Maniac Bryan | Route 111"],
-		endTrainers: ["Picnicker Celia | Route 111"]
-	},
-	{
-		id: "lavaridge-gym-gauntlet",
-		type: "Gauntlet",
-		label: "Kindler Jace \u2192 Kindler Jeff",
-		startTrainers: ["Kindler Jace | Lavaridge Gym"],
-		endTrainers: ["Kindler Jeff | Lavaridge Gym"]
-	},
-	{
-		id: "giant-chasm-gauntlet",
-		type: "Gauntlet",
-		label: "Team Plasma Grunt | Gauntlet 1/7",
-		startTrainers: ["Team Plasma Grunt | Gauntlet 1/7"],
-		endTrainers: ["Team Plasma Grunt | Gauntlet 7/7"]
-	}
 ];
 var isRestoringLastEncounterSelection = false;
 var isBootstrappingLastEncounterSelection = true;
