@@ -1790,7 +1790,7 @@ function startAppUpdateChecker() {
 function normalizeStarterChoice(rawChoice) {
 	var normalizedChoice = String(rawChoice || "").trim().toLowerCase();
 	if (STARTER_CHOICES.indexOf(normalizedChoice) >= 0) return normalizedChoice;
-	return "totodile";
+	return "turtwig";
 }
 
 function normalizeLayoutChoice(rawChoice) {
@@ -1800,7 +1800,7 @@ function normalizeLayoutChoice(rawChoice) {
 
 function getDefaultAppSettings() {
 	return {
-		starterChoice: "totodile",
+		starterChoice: "turtwig",
 		layoutMode: "standard",
 		moreColour: true,
 		moveColors: false,
@@ -1888,9 +1888,9 @@ function matchesExplicitStarterBooleanFlags(setData, starterChoice) {
 	if (!setData) return null;
 	var normalizedChoice = normalizeStarterChoice(starterChoice);
 	var flagMappings = [
-		{key: "chosechikorita", starter: "chikorita"},
-		{key: "chosetepig", starter: "tepig"},
-		{key: "chosetotodile", starter: "totodile"}
+		{key: "choseturtwig", starter: "turtwig"},
+		{key: "chosechimchar", starter: "chimchar"},
+		{key: "chosepiplup", starter: "piplup"}
 	];
 	var hasAnyStarterFlag = false;
 	var isMatch = false;
