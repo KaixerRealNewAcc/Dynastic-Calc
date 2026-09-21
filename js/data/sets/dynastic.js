@@ -947,7 +947,7 @@ var SETDEX_SV = {
     "Grumpig": {
     },
     "Spinda": {
-        "School Kid Sen": {  
+        "Lass Tiana": {  
             "index": "0000000010",
             "level": 10,
             "ability": "Contrary",
@@ -2436,7 +2436,7 @@ var SETDEX_SV = {
     "Espathra":{
     },
     "Tinkatink":{
-        "School Kid Sen": {  
+        "Lass Tiana": {  
             "index": "0000000009",
             "level": 10,
             "ability": "Pickpocket",
